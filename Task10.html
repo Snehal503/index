@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>FORM TAG </title>
+    </head>
+    <body>
+        <form>
+            <h1>Persoal Details</h1>
+            <lable for="currentname" type="text">Name</lable>
+            <input type="text" name="Name"/>
+            <br/> 
+            <br/>
+            <lable for="currentpassword" >Password</lable>
+            <input type="password"/>
+            <br/>
+            <br/>
+            <lable for="currentmail" type="text">E-mail id</lable>
+            <input type="email"/>
+            <br/>
+            <br/>
+            <lable for="Gender">Gender:</lable>
+            <input id="male" name="gender" type="radio" value="male">
+            <lable for="male">Male</lable>
+            <input id="female" name="gender" type="radio" value="female"/>
+            <lable for="female">Female</lable>
+            <br/>
+            <br/>
+            <lable for="currentnumber" type="number">Contact# :</lable>
+            <input type="number"min="10"maxlength="10"/>
+            <h1>Educational Qualification</h1>
+            <lable for="currentDegree">Degree</lable>
+            <select>
+                <option>--Select Group--</option>
+                <option>10<sup>th</sup></option>
+                <option>12<sup>th</sup></option>
+                <option>Graduate</option>
+                <option>Under Graduate</option>
+                <option>Masters</option>
+            </select>
+            <select>
+                <option>--Select Group--</option>
+                <option>Civil Engineering</option>
+                <option>Electrical Engineering</option>
+                <option>Chemical Engineering</option>
+                <option>Mechanical Engineering</option>
+                <option>Aerospace Engineering</option>
+                <option>Biomedical Engineering</option>
+                <option>Environmental Engineering</option>
+                <option>Industrial Engineering</option>
+            </select>
+            <br/>
+            <br/>
+            <lable for="Hobbies">Hobbies</lable>
+            <input type="checkbox" id="Hobbies" name="Hobbies" value="Playing Chess"/>
+            <lable for="Hobbies">Playing Chess</lable>
+            <input type="checkbox" id="Hobbies" name="Hobbies" value="Reading Books"/>
+            <lable for="Hobbies">Reading Books</lable>
+            <br/>
+            <h1>Address</h1>
+            <input type="text" min="50" maxlength="100"/>
+            <br/>
+            <br/>
+            <lable for="file">Attach Resume</lable>
+            <input type="file"/>
+            <br/>
+            <br/>
+            <input type="submit"value="submit"/>
+        </form>
+    </body>
+</html>
